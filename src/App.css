@@ -4,13 +4,16 @@
   font-weight: 600;
   color: black;
 
+  /* To smoothen the shape's corner edges from all sides */
+  border-radius: 14px;
+  /* Q1: Find out how we can smoothen on particular corner edge of the shape*/
+
   /* border: 6px solid greenyellow; */
   border-left: 8px solid black;
   border-bottom: 8px solid black;
   border-top: 4px solid black;
   border-right: 4px solid black;
-
-  /* Q: Find out how to remove the border for button from all edges */
+  /* Q2: Find out how to remove the border for button from all sides */
 
   /* padding: 60px; */
   padding-left: 60px;
