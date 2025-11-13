@@ -1,9 +1,16 @@
 .green-button {
-  background: black;
+  background: greenyellow;
   font-size: 32px;
   font-weight: 600;
-  color: greenyellow;
-  border: 6px solid greenyellow;
+  color: black;
+
+  /* border: 6px solid greenyellow; */
+  border-left: 8px solid black;
+  border-bottom: 8px solid black;
+  border-top: 4px solid black;
+  border-right: 4px solid black;
+
+  /* Q: Find out how to remove the border for button from all edges */
 
   /* padding: 60px; */
   padding-left: 60px;
