@@ -35,3 +35,20 @@
    [ Y - (top & bottom) X - (left & right) ] */
   /* margin: 60px 20px; */
 }
+
+/** 
+Pseudo selectors enable us to catch the tiny actions / states of the element and let us
+to define the styles when that action / states happens on that element.
+*/
+
+/* @ When cursor is hover the element */
+.green-button:hover {
+  background: rgb(151, 231, 32);
+  cursor: pointer;
+}
+
+/* @ When cursor pressed in and hold on the element -- Active state */
+/* .green-button:active {
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+} */
