@@ -51,12 +51,10 @@ to define the styles when that action / states happens on that element.
 @ When cursor pressed in and hold on the element -- Active state 
 */
 
-/* 
 .green-button:active {
   border-left: 4px solid black;
   border-bottom: 4px solid black;
-} 
-*/
+}
 
 /* 
 Q3: Find out how we can target button's disabled state and reduce the
@@ -64,3 +62,16 @@ whole button's opacity to 40% so it can indicate to the user
 "The button is disabled".
  
 Your Answer: */
+.green-button:disabled {
+  opacity: 40%;
+  cursor: not-allowed;
+}
+
+.green-button:hover:disabled {
+  background: greenyellow;
+}
+
+.green-button:active:disabled {
+  border-left: 8px solid black;
+  border-bottom: 8px solid black;
+}
