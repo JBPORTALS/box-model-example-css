@@ -22,7 +22,7 @@
   padding-bottom: 30px;
 
   /* Paddin can also be set like this with the cordinates of
-   [ Y - (top & bottom) X - (left & right) ] */
+[ Y - (top & bottom) X - (left & right) ] */
   /* padding: 60px 20px; */
 
   /* margin: 40px; */
@@ -47,8 +47,20 @@ to define the styles when that action / states happens on that element.
   cursor: pointer;
 }
 
-/* @ When cursor pressed in and hold on the element -- Active state */
-/* .green-button:active {
+/* 
+@ When cursor pressed in and hold on the element -- Active state 
+*/
+
+/* 
+.green-button:active {
   border-left: 4px solid black;
   border-bottom: 4px solid black;
-} */
+} 
+*/
+
+/* 
+Q3: Find out how we can target button's disabled state and reduce the
+whole button's opacity to 40% so it can indicate to the user 
+"The button is disabled".
+ 
+Your Answer: */
