@@ -3,6 +3,7 @@
   font-size: 32px;
   font-weight: 600;
   color: greenyellow;
+  border: 6px solid greenyellow;
 
   /* padding: 60px; */
   padding-left: 60px;
@@ -10,11 +11,9 @@
   padding-top: 30px;
   padding-bottom: 30px;
 
-  /* This can also be written like this 
-  with the pair of [ Y X ] */
+  /* Paddin can also be set like this with the cordinates of
+   [ Y - (top & bottom) X - (left & right) ] */
   /* padding: 60px 20px; */
-
-  border: 6px solid greenyellow;
 
   /* margin: 40px; */
   margin-left: 20px;
@@ -22,7 +21,7 @@
   margin-top: 60px;
   margin-bottom: 60px;
 
-  /* This can also be written like this 
-  with the pair of [ Y X ] */
+  /* Margin can also be set like this with the cordinates of
+   [ Y - (top & bottom) X - (left & right) ] */
   /* margin: 60px 20px; */
 }
